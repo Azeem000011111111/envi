@@ -58,6 +58,6 @@ prompt_parts = [
 ]
 
 response = model.generate_content(prompt_parts)
-print(response.text)
+
 st.write(response.text)
 
