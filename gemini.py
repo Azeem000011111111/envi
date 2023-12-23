@@ -1,3 +1,4 @@
+from google.generativeai import GenerationConfig
 import google.generativeai as genai
 import streamlit as st
 
