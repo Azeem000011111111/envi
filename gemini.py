@@ -13,7 +13,7 @@ qoutes = st.text_input("Enter the qoutes")
 
 # Configure the API key
 
-genai.configure(api_key=f"{api_key}")
+genai.configure(api_key=f"AIzaSyBQscb6hscAKKw7qfGKFTUsmQ2ic0xNpIs")
 
 # Set up the model
 generation_config = {
@@ -54,7 +54,7 @@ model = genai.GenerativeModel(model_name="gemini-pro",
                                                             safety_settings=safety_settings)
 
 prompt_parts = [
-    f"Write random qoutes about {qoutes}",
+    f"Write random qoutes about in urdu {qoutes}",
 ]
 
 response = model.generate_content(prompt_parts)
