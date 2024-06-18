@@ -9,7 +9,7 @@ st.write("This is a simple image caption generator using Gemini")
 image = st.file_uploader("Upload an image", type=["png", "jpg", "jpeg"])
 st.image(image, caption='Uploaded Image.', use_column_width=True)
 
-genai.configure(api_key="AIzaSyBQscb6hscAKKw7qfGKFTUsmQ2ic0xNpIs")
+genai.configure(api_key="kmkmmkm")
 
 # Set up the model
 generation_config = {

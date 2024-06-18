@@ -13,7 +13,7 @@ qoutes = st.text_input("Enter the qoutes")
 
 # Configure the API key
 
-genai.configure(api_key=f"AIzaSyBQscb6hscAKKw7qfGKFTUsmQ2ic0xNpIs")
+genai.configure(api_key=f"mjjjnknk")
 
 # Set up the model
 generation_config = {
